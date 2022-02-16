@@ -1,6 +1,6 @@
 # Getting Started with React-Native/Expo
 
-This project was bootstrapped with [Reac-native](https://reactnative.dev).
+This project was bootstrapped with [react-native](https://reactnative.dev) and [Expo](https://expo.dev/).
 
 ## :zap:Available Scripts:zap:
 
