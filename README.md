@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Reac-native](https://reactnative.dev).
 
-## Available Scripts
+## :zap:Available Scripts:zap:
 
 In the project directory, you can run:
 
@@ -13,12 +13,28 @@ Starting Metro Bundler
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn android`
+### :robot: `yarn android`
 
-### `yarn ios`
+### :iphone: `yarn ios`
 
-### `yarn web`
+### :earth_africa: `yarn web`
 
 [http://192.168.1.131:19006](http://192.168.1.131:19006)  
+
+## Debug with real phone :iphone::bug:
+`adb devices`  
+
+```console
+List of devices attached  
+9c2997db	device
+```
+
+### Start Metro
+ `npx react-native start`
+
+### Start app
+`npx react-native run-android`  
+
+`npx react-native run-ios`
 
 
