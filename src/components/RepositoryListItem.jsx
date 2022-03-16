@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
     padding: 10,
   },
   containerFooterItem: { flexDirection: 'column' },
-  containerFooterNumber: { fontWeight: 'bold' },
+  textBold: { fontWeight: 'bold' },
 })
 
 const RepositoryItem = ({ item }) => (
@@ -50,7 +50,7 @@ const RepositoryItem = ({ item }) => (
         <Image style={styles.avatar} source={{ uri: item.ownerAvatarUrl }} />
       </View>
       <View style={styles.infoContainer}>
-        <Text>{item.fullName}</Text>
+        <Text style={styles.textBold}>{item.fullName}</Text>
         <Text>{item.description}</Text>
         <Text style={styles.boton}>{item.language}</Text>
       </View>
@@ -58,19 +58,19 @@ const RepositoryItem = ({ item }) => (
 
     <View style={styles.containerFooter}>
       <View style={styles.containerFooterItem}>
-        <Text style={styles.containerFooterNumber}>{item.stargazersCount}</Text>
+        <Text style={styles.textBold}>{item.stargazersCount}</Text>
         <Text>Stars</Text>
       </View>
       <View style={styles.containerFooterItem}>
-        <Text style={styles.containerFooterNumber}>{item.forksCount}</Text>
+        <Text style={styles.textBold}>{item.forksCount}</Text>
         <Text>Forks</Text>
       </View>
       <View style={styles.containerFooterItem}>
-        <Text style={styles.containerFooterNumber}>{item.reviewCount}</Text>
+        <Text style={styles.textBold}>{item.reviewCount}</Text>
         <Text>Reviews</Text>
       </View>
       <View style={styles.containerFooterItem}>
-        <Text style={styles.containerFooterNumber}>{item.ratingAverage}</Text>
+        <Text style={styles.textBold}>{item.ratingAverage}</Text>
         <Text>Rating</Text>
       </View>
     </View>
